@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Bay Dreaming</title>
+    </head>
+
+    <body>
+        <div class="navigation">
+            <label for="navi-toggle" class="navigation__button">
+                     <img src="img/favicon.png" alt="logo" class="header__logo">
+            </label>
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <div class="navigation__background"></div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#section-about" class="navigation__link">About</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#section-features" class="navigation__link">benefits</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#section-tours" class="navigation__link">Popular beaches</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#section-pets" class="navigation__link">Pets Policy</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header">
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/video.mp4" type="video/mp4">
+                    <source src="img/video.webm" type="video/webm">
+                    Your browser is not supported!
+                </video>
+            </div>
+ 
+            <!-- <div class="header__logo-box">
+                <img src="img/favicon.png" alt="logo" class="header__logo">
+            </div> -->
+
+            <div class="header__text-box">
+
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Bay Beach</span>
+                    <span class="heading-primary--sub">Dream Comes True</span>
+                </h1>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover the beaches</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- <div class="test"></div> -->
+            <section class="section-about" id="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Amazing beaches for vacation
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary  u-margin-bottom-small">You'll in love with seaside</h3>
+                        <p class="paragraph">
+                            Most beautiful beaches around the world,all in one website.Enjoy our selections for your next vacation destinations!
+                        </p>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Amazing unforgetable experience </h3>
+                        <p class="paragraph">
+                            Best resorts with best hotels,all in an reasonable price.Your luxury dream at seaside is about to come true.
+                        </p>
+                        <!-- <a href="#" class="btn-text">More &rarr;</a> -->
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img srcset="img/bay-1.jpg 300w,img/bay-1-large.jpg 1000w"
+                             sizes="(max-width:56.25em) 20vw,(max-width:37.5em) 30vw, 300px"
+                            alt="pic 01" class="composition__photo composition__photo--p1" 
+                            src="img/bay-1-large.jpg">
+
+                            <img srcset="img/bay-2.jpg 300w,img/bay-2-large.jpg 1000w"
+                            sizes="(max-width:56.25em) 20vw,(max-width:37.5em) 30vw, 300px"
+                           alt="pic 02" class="composition__photo composition__photo--p2" 
+                           src="img/bay-2-large.jpg">
+
+                           <img srcset="img/bay-3.jpg 300w,img/bay-3-large.jpg 1000w"
+                           sizes="(max-width:56.25em) 20vw,(max-width:37.5em) 30vw, 300px"
+                          alt="pic 03" class="composition__photo composition__photo--p3" 
+                          src="img/bay-3-large.jpg">
+                            
+                            <!-- <img src="img/bay-1-large.jpg" alt="bay 1" class="composition__photo composition__photo--p1">
+                            <img src="img/bay-2-large.jpg" alt="bay 2" class="composition__photo composition__photo--p2">
+                            <img src="img/bay-3-large.jpg"  alt="bay 3" class="composition__photo composition__photo--p3"> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-features" id="section-features">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">                          
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Explore The World</h3>
+                            <p class="feature-box__text">
+                                Travel all over the world, to find the most beautiful places where our memories will be kept. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">                          
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Discover Nature</h3>
+                            <p class="feature-box__text">
+                                Discover what was created by nature, those masterpieces are beyond our imagination.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">                          
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">New Culture</h3>
+                            <p class="feature-box__text">
+                                 Tropical exotic travel will bring you experience of a different culture.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">                          
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Relaxing Life</h3>
+                            <p class="feature-box__text">
+                               A tour at beach is relaxing and healing,bring all the energy you need.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-tours" id="section-tours">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary u-margin-bottom-big">
+                        Most Pupular Destinations
+                    </h2>
+                    <div class="row">
+                        <div class="col-1-of-3">
+                            <div class="card">
+                                <div class="card__side card__side--front">
+                                    <div class="card__picture card__picture--1"></div>
+                                    <h4 class="card__heading">Phuket -Thailand</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>6 days travel</li>
+                                            <li>5 star hotels</li>
+                                            <li>Round trip flight</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card__side card__side--back card__side--back-1">
+                                    <div class="card__cta">
+
+                                        <div class="card__price-box">
+                                            <p class="card__price">$1500</p>
+                                            <a href="#popup" class="btn btn--white">Book</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-1-of-3">
+                            <div class="card">
+                                <div class="card__side card__side--front">
+                                    <div class="card__picture card__picture--2"></div>
+                                    <h4 class="card__heading">Turtle Bay -Seychelles</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>5 days travel</li>
+                                            <li>5 star hotels</li>
+                                            <li>Round trip flight</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card__side card__side--back card__side--back-1">
+                                    <div class="card__cta">
+
+                                        <div class="card__price-box">
+                                            <p class="card__price">$2500</p>
+                                            <a href="#popup" class="btn btn--white">Book</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-1-of-3">
+                            <div class="card">
+                                <div class="card__side card__side--front">
+                                    <div class="card__picture card__picture--3"></div>
+                                    <h4 class="card__heading">Navajo Bay -Greece</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>4 days travel</li>
+                                            <li>4 star hotels</li>
+                                            <li>Round trip flight</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card__side card__side--back card__side--back-1">
+                                    <div class="card__cta">
+
+                                        <div class="card__price-box">
+                                            <p class="card__price">$900</p>
+                                            <a href="#popup" class="btn btn--white">Book</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="section-pets" id="section-pets">
+                <div class="u-center-text u-margin-bottom-medium">
+                    <h2 class="heading-secondary heading-secondary--pets-sec">
+                        Pets are also welcomed!
+                    </h2>
+                </div>   
+                <div class="row">
+                    <div class="pet">
+                        <figure class="pet__shape">
+                          <img src="img/bay-8.jpg" alt="pet" class="pet__img">
+                          <figcaption class="pet__caption">Take me with you!</figcaption>
+                        </figure>
+                        <div class="pet__story">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                A nice vacation with your pet
+                            </h3>
+                            <p class="pet__text">
+                                Pets are the best friends and a family member, no matter where you fly to,we offer a pets-freiendly cabin for your trip. You can enjoy a comfortable flight with your pet right next by you. Note: please make sure your four-paw friend is restrained to the seat for its safety.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             
+        </main>
+        <footer class="footer">
+            <div class="footer-box">
+                <picture class="footer__logo">
+                 <source srcset="img/logo-green-small-1x.png 1x,img/logo-green-small-2x.png 2x" media="(max-width:37.5em)">
+                 <img srcset="img/logo-green-1x 1x, img/logo-green-2x.png 2x" alt="footer-logo" class="footer__logo" src="img/logo-green-2x.png">
+
+                </picture>
+                <p class="footer__text">Bay Dreaming 2024 <br/>Powered by &copy;Hong Wang</p>
+            </div>
+        </footer>
+      
+        <!-- CSS POPUP WINDOW -->
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="./img/bay-8.jpg" alt="bay 8" class="popup__img">
+                    <img src="./img/bay-9.jpg" alt="bay 9" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary">
+                        Start booking now
+                    </h2>
+                    <h3 class="heading-tertiary">
+                       This is a program of travel agencies.
+                    </h3>
+                    <p class="popup__text">
+                        You can go the the local travel angency to join the 'Bay Dreaming' tour,
+                        or simply call us under the number 0123 45678. If you want to know more or have any further questions, please write us an E-mail under the adress: info@baydreaming.com
+                     </p>
+                    <!-- <a href="#" class="btn btn--white">Book now</a> -->
+                </div>
+            </div>
+        </div>
+           
+       
+</html>
